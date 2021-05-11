@@ -1,4 +1,4 @@
-# pcap_parser_improved_v3
+# pcap_parse_improved_v3
 Generates traffic summary statistucs & an excel file from a pcap
 
 # Description:
