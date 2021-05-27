@@ -4,6 +4,24 @@ Generates traffic summary statistucs & an excel file from a pcap
 # Description:
 Script that compares two .pcap files looking for lost packets. It creates an .xlsx file reporting the additional delay caused by packet loss.
 
+# How to install
+Install python:
+```
+$ sudo apt-get install python3
+```
+
+Install package: `pip`:
+```
+sudo apt install python3-pip
+```
+
+And now, using `pip3`, install these two other packages:
+```
+$ pip3 install XlsxWriter
+$ pip3 install dpkt
+```
+see https://xlsxwriter.readthedocs.io/getting_started.html
+
 # Important Notes:
 Takes a long time for large pcap files ~30 seconds per GB on my mac + file save time - larger CPU will assist this.
 
