@@ -1,4 +1,4 @@
-# pcap_parse_improved_v3
+# pcap_parse_improved
 Generates traffic summary statistucs & an excel file from a pcap
 
 # Description:
@@ -51,3 +51,5 @@ where
    5   11.0        ...     Arrived     0           5.0         2       <-  the two last columns are only added after a burst
                                                                            5.0 = 11.0 - 6.0 
 ```
+
+**Note**: If you just want to get the information from a .pcap file, call the script using the same .pcap file twice.
